@@ -1,0 +1,28 @@
+{
+  "name": "hapibasicserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js",
+    "test": "./node_modules/jasmine-node/bin/jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dougtq/hapibasicserver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dougtq/hapibasicserver/issues"
+  },
+  "homepage": "https://github.com/dougtq/hapibasicserver#readme",
+  "dependencies": {
+    "hapi": "^16.5.2"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "nodemon": "^1.11.0"
+  }
+}
